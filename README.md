@@ -1,4 +1,50 @@
-Chapter IV <br>
+
+### Chapter I
+##### Introduction
+```
+C programming can be quite tedious without access to the highly useful standard functions. This project aims to help you understand how these functions work by implementing them yourself and learning to use them effectively. You will create your own library,
+which will be valuable for your future C school assignments.
+Take the time to expand your libft throughout the year. However, when working on a
+new project, always check that the functions used in your library comply with the project
+guidelines.
+```
+
+#### Chapter II
+```
+Common Instructions
+• Your project must be written in C.
+• Your project must be written in accordance with the Norm. If you have bonus
+files/functions, they are included in the norm check, and you will receive a 0 if
+there is a norm error.
+• Your functions should not quit unexpectedly (segmentation fault, bus error, double free, etc.) except for undefined behavior. If this occurs, your project will be
+considered non-functional and will receive a 0 during the evaluation.
+• All heap-allocated memory must be properly freed when necessary. Memory leaks
+will not be tolerated.
+• If the subject requires it, you must submit a Makefile that compiles your source
+files to the required output with the flags -Wall, -Wextra, and -Werror, using cc.
+Additionally, your Makefile must not perform unnecessary relinking.
+• Your Makefile must contain at least the rules $(NAME), all, clean, fclean and
+re.
+• To submit bonuses for your project, you must include a bonus rule in your Makefile,
+which will add all the various headers, libraries, or functions that are not allowed in
+the main part of the project. Bonuses must be placed in _bonus.{c/h} files, unless
+the subject specifies otherwise. The evaluation of mandatory and bonus parts is
+conducted separately.
+• If your project allows you to use your libft, you must copy its sources and its
+associated Makefile into a libft folder. Your project’s Makefile must compile
+the library by using its Makefile, then compile the project.
+• We encourage you to create test programs for your project, even though this work
+does not need to be submitted and will not be graded. It will give you an
+opportunity to easily test your work and your peers’ work. You will find these tests
+especially useful during your defence. Indeed, during defence, you are free to use
+your tests and/or the tests of the peer you are evaluating.
+• Submit your work to the assigned Git repository. Only the work in the Git repository will be graded. If Deepthought is assigned to grade your work, it will occur
+3
+Libft Your very first own library
+after your peer-evaluations. If an error happens in any section of your work during
+Deepthought’s grading, the evaluation will stop
+```
+### Chapter IV <br>
 
 | **Item**             | **Details**                                                                 |
 |----------------------|-----------------------------------------------------------------------------|
