@@ -9,7 +9,7 @@ Chapter IV <br>
 | **Libft Authorized**  | n/a                                                                         |
 | **Description**       | Create your own library: a collection of functions that will serve as a useful tool throughout your cursus. |
 
-##### IV.2 Part 1 - Libc functions
+### IV.2 Part 1 - Libc functions
 To begin, you must reimplement a set of functions from the libc. Your version will have
 the same prototypes and behaviors as the originals, adhering strictly to their definitions
 in the man page. The only difference will be their names, as they must start with the
@@ -54,10 +54,29 @@ pointer value that can be successfully passed to free().
 ---
 
 Some functions that you must reimplement, such as strlcpy, strlcat,
-and bzero, are not included by default in the GNU C Library (glibc).
+and bzero, are not included by default in the GNU C Library (glibc).<br>
 To test them against the system standard, you may need to include
-<bsd/string.h> and compile with the -lbsd flag.
-This behaviour is specific to glibc systems. If you are curious,
+<bsd/string.h> and compile with the -lbsd flag.<br>
+
+### IV.3 Part 2 - Additional functions
+In this second part, you must develop a set of functions that are either not included in
+the libc, or exist in a different form.<br>
+Some of the functions from Part 1 may be useful for implementing the
+functions below.<br>
+This behaviour is specific to glibc systems.<br> If you are curious,
 take the opportunity to explore the differences between glibc and BSD
 
----
+| Function Name | Prototype                                                        | Parameters                                                           | Return Value                              | External Functions | Description                                                                                        |
+| ------------- | ---------------------------------------------------------------- | -------------------------------------------------------------------- | ----------------------------------------- | ------------------ | -------------------------------------------------------------------------------------------------- |
+| ft_substr     | `char *ft_substr(char const *s, unsigned int start, size_t len)` | `s`: original string<br>`start`: starting index<br>`len`: max length | substring or `NULL` if allocation fails   | malloc             | Allocates memory and returns a substring starting at `start` with max length `len`.                |
+| ft_strjoin    | `char *ft_strjoin(char const *s1, char const *s2)`               | `s1`: prefix string<br>`s2`: suffix string                           | new string or `NULL`                      | malloc             | Allocates memory and returns a new string by concatenating `s1` and `s2`.                          |
+| ft_strtrim    | `char *ft_strtrim(char const *s1, char const *set)`              | `s1`: string to trim<br>`set`: characters to remove                  | trimmed string or `NULL`                  | malloc             | Allocates memory and returns a copy of `s1` with characters from `set` removed from start and end. |
+| ft_split      | `char **ft_split(char const *s, char c)`                         | `s`: string to split<br>`c`: delimiter                               | array of strings ending with `NULL`       | malloc, free       | Allocates memory and splits `s` by `c`, returning an array of strings.                             |
+| ft_itoa       | `char *ft_itoa(int n)`                                           | `n`: integer to convert                                              | string representing the integer or `NULL` | malloc             | Allocates memory and returns a string representing the integer, handling negatives.                |
+| ft_strmapi    | `char *ft_strmapi(char const *s, char (*f)(unsigned int, char))` | `s`: string<br>`f`: function applied to each char                    | new string or `NULL`                      | malloc             | Applies `f` to each character of `s` (index + char) and stores results in a new string.            |
+| ft_striteri   | `void ft_striteri(char *s, void (*f)(unsigned int, char *))`     | `s`: string<br>`f`: function applied to each char                    | None                                      | None               | Applies `f` to each character of `s`, passing the index and char by address for modification.      |
+| ft_putchar_fd | `void ft_putchar_fd(char c, int fd)`                             | `c`: character<br>`fd`: file descriptor                              | None                                      | write              | Outputs character `c` to the specified file descriptor.                                            |
+| ft_putstr_fd  | `void ft_putstr_fd(char *s, int fd)`                             | `s`: string<br>`fd`: file descriptor                                 | None                                      | write              | Outputs the string `s` to the specified file descriptor.                                           |
+| ft_putendl_fd | `void ft_putendl_fd(char *s, int fd)`                            | `s`: string<br>`fd`: file descriptor                                 | None                                      | write              | Outputs the string `s` followed by a newline to the specified file descriptor.                     |
+| ft_putnbr_fd  | `void ft_putnbr_fd(int n, int fd)`                               | `n`: integer<br>`fd`: file descriptor                                | None                                      | write              | Outputs the integer `n` to the specified file descriptor.                                          |
+
