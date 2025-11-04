@@ -6,7 +6,7 @@
 /*   By: ilsyabri <ilsyabri@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/15 22:27:29 by ilsyabri          #+#    #+#             */
-/*   Updated: 2025/10/24 22:54:42 by ilsyabri         ###   ########.fr       */
+/*   Updated: 2025/11/01 03:26:51 by ilsyabri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 //#include <stdio.h>
 
-int	all_spaces(char c)
+static int	all_spaces(char c)
 {
 	if ((c == ' ') || (c >= 9 && c <= 13))
 		return (1);
@@ -30,8 +30,6 @@ int	ft_atoi(const char *nptr)
 	sign = 1;
 	result = 0;
 	i = 0;
-	if (nptr == NULL)
-		return (0);
 	while (all_spaces(nptr[i]))
 		i++;
 	if (nptr[i] == '-' || nptr[i] == '+')

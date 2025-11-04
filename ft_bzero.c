@@ -6,7 +6,7 @@
 /*   By: ilsyabri <ilsyabri@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/17 17:05:05 by ilsyabri          #+#    #+#             */
-/*   Updated: 2025/10/19 18:48:43 by ilsyabri         ###   ########.fr       */
+/*   Updated: 2025/10/30 16:52:32 by ilsyabri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,6 @@ void	ft_bzero(void *s, size_t n)
 	char	*p;
 
 	i = 0;
-	if (s == NULL)
-		return ;
 	p = (char *)s;
 	while (i < n)
 	{

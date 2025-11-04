@@ -6,7 +6,7 @@
 /*   By: ilsyabri <ilsyabri@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/17 14:18:45 by ilsyabri          #+#    #+#             */
-/*   Updated: 2025/10/17 21:47:26 by ilsyabri         ###   ########.fr       */
+/*   Updated: 2025/11/01 04:13:21 by ilsyabri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,6 @@ void	*ft_memset(void *s, int c, size_t n)
 	unsigned char	*p;
 
 	i = 0;
-	if (s == NULL)
-		return (0);
 	p = (unsigned char *)s;
 	while (i < n)
 	{

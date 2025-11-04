@@ -6,14 +6,12 @@
 /*   By: ilsyabri <ilsyabri@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/23 17:33:13 by ilsyabri          #+#    #+#             */
-/*   Updated: 2025/10/24 22:58:10 by ilsyabri         ###   ########.fr       */
+/*   Updated: 2025/11/01 04:14:34 by ilsyabri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
-
-char			*ft_substr(char const *s, unsigned int start, size_t len);
+//#include <stdio.h>
 
 static size_t	ft_count_word(const char *str, char c)
 {

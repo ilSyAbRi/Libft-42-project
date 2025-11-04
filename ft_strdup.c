@@ -6,7 +6,7 @@
 /*   By: ilsyabri <ilsyabri@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/18 19:45:48 by ilsyabri          #+#    #+#             */
-/*   Updated: 2025/10/19 19:02:54 by ilsyabri         ###   ########.fr       */
+/*   Updated: 2025/10/30 16:58:49 by ilsyabri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,6 @@ char	*ft_strdup(const char *s)
 	char	*ptr;
 
 	i = 0;
-	if (s == NULL)
-		return (NULL);
 	ptr = malloc(sizeof(char) * ft_strlen(s) + 1);
 	if (ptr == NULL)
 		return (NULL);

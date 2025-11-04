@@ -6,15 +6,13 @@
 /*   By: ilsyabri <ilsyabri@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/21 01:46:01 by ilsyabri          #+#    #+#             */
-/*   Updated: 2025/10/21 16:52:03 by ilsyabri         ###   ########.fr       */
+/*   Updated: 2025/11/01 04:17:28 by ilsyabri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 //#include <stdio.h>
-
-size_t	ft_strlen(const char *s);
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {

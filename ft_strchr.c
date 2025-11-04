@@ -6,7 +6,7 @@
 /*   By: ilsyabri <ilsyabri@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/14 20:14:06 by ilsyabri          #+#    #+#             */
-/*   Updated: 2025/10/16 00:20:23 by ilsyabri         ###   ########.fr       */
+/*   Updated: 2025/10/30 16:54:18 by ilsyabri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,6 @@ char	*ft_strchr(const char *s, int c)
 	int	i;
 
 	i = 0;
-	if (s == NULL)
-		return (NULL);
 	while (s[i])
 	{
 		if (s[i] == c)

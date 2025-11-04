@@ -6,7 +6,7 @@
 /*   By: ilsyabri <ilsyabri@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/25 01:14:16 by ilsyabri          #+#    #+#             */
-/*   Updated: 2025/10/25 06:16:45 by ilsyabri         ###   ########.fr       */
+/*   Updated: 2025/11/01 04:05:51 by ilsyabri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,14 +14,13 @@
 
 /*static	char add_index_to_ch(unsigned int i, char c)
 {
-	char	*ptr;
-	size_t	i;
-
 	return (c + i);
-}*/
+}
+*/
+
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
-	char *ptr;
+	char	*ptr;
 	size_t	i;
 
 	if (s == NULL || f == NULL)

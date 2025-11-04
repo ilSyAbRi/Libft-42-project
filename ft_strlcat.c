@@ -6,13 +6,14 @@
 /*   By: ilsyabri <ilsyabri@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/18 16:24:14 by ilsyabri          #+#    #+#             */
-/*   Updated: 2025/10/19 18:59:10 by ilsyabri         ###   ########.fr       */
+/*   Updated: 2025/10/31 19:33:42 by ilsyabri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 //#include <stdio.h>
+//#include <string.h>
 //#include <bsd/string.h>
 
 // size = buffer of dst
@@ -23,8 +24,6 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 
 	j = 0;
 	i = 0;
-	if (dst == NULL || src == NULL)
-		return (0);
 	while (i < size && dst[i] != '\0')
 		i++;
 	if (i == size)
@@ -42,7 +41,7 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 {
 	char buf[10] = "abc";
 
-	printf("Return: %zu\n", ft_strlcat(buf, "de", sizeof(buf)));
+	printf("Return: %zu\n", ft_strlcat(buf,"def", 10));
 	printf("Buffer: %s\n", buf);
 
 	return (0);

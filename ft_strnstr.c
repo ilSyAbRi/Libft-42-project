@@ -6,7 +6,7 @@
 /*   By: ilsyabri <ilsyabri@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/15 21:04:40 by ilsyabri          #+#    #+#             */
-/*   Updated: 2025/10/16 00:23:17 by ilsyabri         ###   ########.fr       */
+/*   Updated: 2025/10/30 16:57:04 by ilsyabri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,6 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 
 	i = 0;
 	j = 0;
-	if (big == NULL || little == NULL)
-		return (NULL);
 	if (little[i] == '\0')
 		return ((char *)&big[i]);
 	while (i < len && big[i])

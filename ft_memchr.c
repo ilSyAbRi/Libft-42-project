@@ -6,7 +6,7 @@
 /*   By: ilsyabri <ilsyabri@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/18 17:34:54 by ilsyabri          #+#    #+#             */
-/*   Updated: 2025/10/21 16:08:03 by ilsyabri         ###   ########.fr       */
+/*   Updated: 2025/10/30 16:56:14 by ilsyabri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,6 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	size_t	i;
 
 	i = 0;
-	if (s == NULL)
-		return (NULL);
 	while (i < n)
 	{
 		if (((const unsigned char *)s)[i] == (unsigned char)c)

@@ -6,7 +6,7 @@
 #    By: ilsyabri <ilsyabri@student.1337.ma>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/10/24 18:35:57 by ilsyabri          #+#    #+#              #
-#    Updated: 2025/10/25 05:48:31 by ilsyabri         ###   ########.fr        #
+#    Updated: 2025/10/31 19:45:20 by ilsyabri         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,7 +22,6 @@ SRC =	ft_atoi.c ft_isalpha.c ft_memchr.c ft_memset.c ft_strlcpy.c ft_strrchr.c \
 OBJ = $(SRC:.c=.o)
 NAME = libft.a
 CFLAG = -Wall -Wextra -Werror
-LFILE = $(shell ls -t *.c | head -1)
 
 all : $(NAME) 
 
@@ -36,13 +35,5 @@ clean :
 fclean : clean
 	rm -f $(NAME)
 re : fclean all
-
-# run :
-	@echo "\n"
-	@echo "   --------------------\n"
-	@echo "       $(LFILE)        \n"
-	@echo "   --------------------\n"
-	@cc $(CFLAG) $(LFILE) $(NAME) -o output
-	@./output #
 
 .PHONY: all clean fclean re

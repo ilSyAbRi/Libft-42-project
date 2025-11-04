@@ -6,14 +6,10 @@
 /*   By: ilsyabri <ilsyabri@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/22 15:23:47 by ilsyabri          #+#    #+#             */
-/*   Updated: 2025/10/25 06:10:41 by ilsyabri         ###   ########.fr       */
+/*   Updated: 2025/11/01 04:16:54 by ilsyabri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-
-size_t			ft_strlen(const char *s);
-
-char			*ft_substr(char const *s, unsigned int start, size_t len);
 
 static size_t	check_it_is_in_s1(char const c, char const *set)
 {

@@ -6,7 +6,7 @@
 /*   By: ilsyabri <ilsyabri@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/25 05:43:04 by ilsyabri          #+#    #+#             */
-/*   Updated: 2025/10/25 05:56:36 by ilsyabri         ###   ########.fr       */
+/*   Updated: 2025/10/30 17:03:30 by ilsyabri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,5 +24,5 @@ void	ft_putendl_fd(char *s, int fd)
 		write(fd, &s[i], 1);
 		i++;
 	}
-	write(1, "\n", 1);
+	write(fd, "\n", 1);
 }

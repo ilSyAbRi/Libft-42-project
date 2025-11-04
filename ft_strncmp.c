@@ -6,7 +6,7 @@
 /*   By: ilsyabri <ilsyabri@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/15 18:48:17 by ilsyabri          #+#    #+#             */
-/*   Updated: 2025/10/16 12:01:31 by ilsyabri         ###   ########.fr       */
+/*   Updated: 2025/10/30 16:55:55 by ilsyabri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,6 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	size_t	i;
 
 	i = 0;
-	if (s1 == NULL || s2 == NULL)
-		return (0);
 	if (n == 0)
 		return (0);
 	while (i < n && s1[i] && s1[i] == s2[i])
