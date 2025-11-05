@@ -6,7 +6,7 @@
 /*   By: ilsyabri <ilsyabri@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/14 15:51:56 by ilsyabri          #+#    #+#             */
-/*   Updated: 2025/10/22 15:37:07 by ilsyabri         ###   ########.fr       */
+/*   Updated: 2025/11/04 14:35:10 by ilsyabri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,3 @@ int	ft_isprint(int c)
 		return (1);
 	return (0);
 }
-
-/*int	main(void)
-{
-	printf("%d\n", ft_isprint('A'));
-}*/

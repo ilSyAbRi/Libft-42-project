@@ -6,7 +6,7 @@
 /*   By: ilsyabri <ilsyabri@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/17 14:18:45 by ilsyabri          #+#    #+#             */
-/*   Updated: 2025/11/01 04:13:21 by ilsyabri         ###   ########.fr       */
+/*   Updated: 2025/11/04 10:36:13 by ilsyabri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,16 +28,3 @@ void	*ft_memset(void *s, int c, size_t n)
 	}
 	return (s);
 }
-
-/*int	main(void)
-{
-	int	s[1];
-	int	i = 0;
-
-	unsigned char  *p = ft_memset(s,1000,4);
-	while (i < 1)
-	{
-		printf("%d\n",p[i]);
-	i++;
-	}
-}*/

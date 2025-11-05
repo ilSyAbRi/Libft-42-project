@@ -6,7 +6,7 @@
 /*   By: ilsyabri <ilsyabri@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/14 15:20:06 by ilsyabri          #+#    #+#             */
-/*   Updated: 2025/10/16 00:17:51 by ilsyabri         ###   ########.fr       */
+/*   Updated: 2025/11/04 14:33:41 by ilsyabri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,3 @@ int	ft_isalnum(int c)
 		return (1);
 	return (0);
 }
-
-/*int	main(void)
-{
-	printf("%d\n", isalnum('1'));
-}*/

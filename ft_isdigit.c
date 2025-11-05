@@ -6,7 +6,7 @@
 /*   By: ilsyabri <ilsyabri@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/14 14:00:55 by ilsyabri          #+#    #+#             */
-/*   Updated: 2025/10/15 23:54:51 by ilsyabri         ###   ########.fr       */
+/*   Updated: 2025/11/04 14:34:53 by ilsyabri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,10 +19,3 @@ int	ft_isdigit(int c)
 		return (1);
 	return (0);
 }
-
-/*int main()
-{
-	int a = '0';
-
-	printf("%d\n",ft_isdigit(a));
-}*/

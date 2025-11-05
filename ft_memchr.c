@@ -6,7 +6,7 @@
 /*   By: ilsyabri <ilsyabri@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/18 17:34:54 by ilsyabri          #+#    #+#             */
-/*   Updated: 2025/10/30 16:56:14 by ilsyabri         ###   ########.fr       */
+/*   Updated: 2025/11/04 10:19:33 by ilsyabri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,17 +29,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
-
-/*int	main(void)
-{
-	int	arr[4] = {10, -1, 30, 40};
-	int	*p;
-
-	// Search for byte 20 in the array
-	p = memchr(arr, 255, sizeof(arr));
-	if (p)
-		printf("Found at byte offset: %ld\n", ((char *)p - (char *)arr));
-	else
-		printf("Not found\n");
-	return (0);
-}*/

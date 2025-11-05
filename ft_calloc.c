@@ -6,7 +6,7 @@
 /*   By: ilsyabri <ilsyabri@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/18 20:01:48 by ilsyabri          #+#    #+#             */
-/*   Updated: 2025/10/23 17:53:23 by ilsyabri         ###   ########.fr       */
+/*   Updated: 2025/11/04 10:02:05 by ilsyabri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,28 +35,3 @@ void	*ft_calloc(size_t nmemb, size_t size)
 	}
 	return (ptr);
 }
-
-/*int	main(void)
-{
-	int		*arr;
-	int		i;
-	char	*str;
-
-	arr = ft_calloc(3, sizeof(int));
-	i = 0;
-	while (i < 3)
-	{
-		printf("%d ", arr[i]);
-		i++;
-	}
-	printf("\n");
-	str = ft_calloc(4, sizeof(char));
-	i = 0;
-	while (i < 4)
-	{
-		printf("%d ", str[i]);
-		i++;
-	}
-	printf("\n");
-	return (0);
-}*/

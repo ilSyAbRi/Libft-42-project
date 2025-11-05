@@ -6,7 +6,7 @@
 /*   By: ilsyabri <ilsyabri@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/18 16:24:14 by ilsyabri          #+#    #+#             */
-/*   Updated: 2025/10/31 19:33:42 by ilsyabri         ###   ########.fr       */
+/*   Updated: 2025/11/04 12:27:56 by ilsyabri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,13 +36,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	dst[i + j] = '\0';
 	return (i + ft_strlen(src));
 }
-
-/*int main(void)
-{
-	char buf[10] = "abc";
-
-	printf("Return: %zu\n", ft_strlcat(buf,"def", 10));
-	printf("Buffer: %s\n", buf);
-
-	return (0);
-}*/

@@ -6,7 +6,7 @@
 /*   By: ilsyabri <ilsyabri@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/21 01:46:01 by ilsyabri          #+#    #+#             */
-/*   Updated: 2025/11/01 04:17:28 by ilsyabri         ###   ########.fr       */
+/*   Updated: 2025/11/04 12:49:23 by ilsyabri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,8 +37,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	ptr[len] = '\0';
 	return (ptr);
 }
-
-/*int main()
-{
-	printf("%s\n",ft_substr("HelloWorld", 8, 4));
-}*/

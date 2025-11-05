@@ -6,7 +6,7 @@
 /*   By: ilsyabri <ilsyabri@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/14 14:25:27 by ilsyabri          #+#    #+#             */
-/*   Updated: 2025/10/30 16:50:11 by ilsyabri         ###   ########.fr       */
+/*   Updated: 2025/11/04 14:34:05 by ilsyabri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,3 @@ int	ft_isalpha(int c)
 {
 	return ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'));
 }
-
-/*int	main(void)
-{
-	printf("%d\n",ft_isalpha('a'));
-}*/

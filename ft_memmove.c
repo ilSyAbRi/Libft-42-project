@@ -6,7 +6,7 @@
 /*   By: ilsyabri <ilsyabri@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/17 21:47:53 by ilsyabri          #+#    #+#             */
-/*   Updated: 2025/10/31 19:44:49 by ilsyabri         ###   ########.fr       */
+/*   Updated: 2025/11/04 09:54:09 by ilsyabri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,11 +35,3 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-
-/*int	main(void)
-{
-	char	src[] = "iliass";
-	char	*dest = &src[2];
-
-	printf("%s\n",(unsigned char *)ft_memmove(dest, src, sizeof(char) * 5));
-}*/

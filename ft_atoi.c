@@ -6,7 +6,7 @@
 /*   By: ilsyabri <ilsyabri@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/15 22:27:29 by ilsyabri          #+#    #+#             */
-/*   Updated: 2025/11/01 03:26:51 by ilsyabri         ###   ########.fr       */
+/*   Updated: 2025/11/04 14:28:58 by ilsyabri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,11 +45,3 @@ int	ft_atoi(const char *nptr)
 	}
 	return (sign * result);
 }
-
-/*int	main(void)
-{
-	char const	*str;
-
-	str = "    2iliass";
-	printf("%d\n", ft_atoi(str));
-}*/

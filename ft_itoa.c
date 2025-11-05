@@ -6,7 +6,7 @@
 /*   By: ilsyabri <ilsyabri@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/24 23:32:42 by ilsyabri          #+#    #+#             */
-/*   Updated: 2025/10/25 00:34:58 by ilsyabri         ###   ########.fr       */
+/*   Updated: 2025/11/04 10:13:45 by ilsyabri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,13 +58,3 @@ char	*ft_itoa(int n)
 	}
 	return (ptr);
 }
-
-/*#include <stdio.h>
-
-int	main(void)
-{
-	int	n;
-
-	n = -10;
-	printf("%s\n", ft_itoa(n));
-}*/

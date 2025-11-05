@@ -6,7 +6,7 @@
 /*   By: ilsyabri <ilsyabri@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/17 17:05:05 by ilsyabri          #+#    #+#             */
-/*   Updated: 2025/10/30 16:52:32 by ilsyabri         ###   ########.fr       */
+/*   Updated: 2025/11/04 09:58:27 by ilsyabri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,17 +27,3 @@ void	ft_bzero(void *s, size_t n)
 		i++;
 	}
 }
-
-/*int	main(void)
-{
-	int	arr[10];
-	int	i;
-
-	ft_bzero(arr, sizeof(int) * 10);
-	i = 0;
-	while (i < 10)
-	{
-		printf("%d\n", arr[i]);
-		i++;
-	}
-}*/

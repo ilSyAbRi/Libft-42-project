@@ -6,7 +6,7 @@
 #    By: ilsyabri <ilsyabri@student.1337.ma>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/10/24 18:35:57 by ilsyabri          #+#    #+#              #
-#    Updated: 2025/10/31 19:45:20 by ilsyabri         ###   ########.fr        #
+#    Updated: 2025/11/04 14:44:21 by ilsyabri         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -34,6 +34,7 @@ clean :
 	rm -f $(OBJ)
 fclean : clean
 	rm -f $(NAME)
+
 re : fclean all
 
-.PHONY: all clean fclean re
+.PHONY: all re fclean clean

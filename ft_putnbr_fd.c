@@ -6,7 +6,7 @@
 /*   By: ilsyabri <ilsyabri@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/19 22:43:03 by ilsyabri          #+#    #+#             */
-/*   Updated: 2025/11/01 03:55:10 by ilsyabri         ###   ########.fr       */
+/*   Updated: 2025/11/04 13:00:23 by ilsyabri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,11 +31,3 @@ void	ft_putnbr_fd(int n, int fd)
 		ft_putnbr_fd(n / 10, fd);
 	ft_putchar_fd((n % 10) + '0', fd);
 }
-
-/*int	main(void)
-{
-	int	n;
-
-	n = -2147483648;
-	ft_putnbr_fd(n, 1);
-}*/

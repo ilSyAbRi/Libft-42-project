@@ -6,7 +6,7 @@
 /*   By: ilsyabri <ilsyabri@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/15 18:48:17 by ilsyabri          #+#    #+#             */
-/*   Updated: 2025/10/30 16:55:55 by ilsyabri         ###   ########.fr       */
+/*   Updated: 2025/11/04 12:39:33 by ilsyabri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,12 +27,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 		return (0);
 	return ((unsigned char)s1[i] - (unsigned char)s2[i]);
 }
-
-/*int	main(void)
-{
-	const char	*str = "abc";
-	const char	*st = "a";
-
-		const unsigned char	str[] = {'a'};
-	printf("%d\n", ft_strncmp(str, st, 4));
-}*/

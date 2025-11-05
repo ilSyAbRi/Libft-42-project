@@ -6,7 +6,7 @@
 /*   By: ilsyabri <ilsyabri@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/22 15:23:47 by ilsyabri          #+#    #+#             */
-/*   Updated: 2025/11/01 04:16:54 by ilsyabri         ###   ########.fr       */
+/*   Updated: 2025/11/04 12:46:08 by ilsyabri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
@@ -65,14 +65,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	len = check_len(s1, set, start);
 	return (ft_substr(s1, start, len));
 }
-
-/*#include <stdio.h>
-
-int	main(void)
-{
-	printf("Result: '%s'\n", ft_strtrim("iiiii", "i"));
-	printf("Result: '%s'\n", ft_strtrim("abccba", "ab"));
-	printf("Result: '%s'\n", ft_strtrim("   hello  ", " "));
-	printf("Result: '%s'\n", ft_strtrim("", " "));
-	printf("Result: '%s'\n", ft_strtrim("hello", ""));
-}*/

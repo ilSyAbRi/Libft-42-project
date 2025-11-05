@@ -6,7 +6,7 @@
 /*   By: ilsyabri <ilsyabri@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/14 15:35:25 by ilsyabri          #+#    #+#             */
-/*   Updated: 2025/10/15 23:03:50 by ilsyabri         ###   ########.fr       */
+/*   Updated: 2025/11/04 14:34:24 by ilsyabri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,3 @@ int	ft_isascii(int c)
 		return (1);
 	return (0);
 }
-
-/*int main()
-{
-	printf("%d\n",ft_isascii('A'));
-}*/
