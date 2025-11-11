@@ -12,4 +12,18 @@ Build a static C library that reimplements standard functions
 and adds custom utilities (like split, strmap)
 using only <stdlib.h> and <unistd.h>, without <stdio.h> or other standard headers.
 ```
----
+```
+
+_________________               _________________
+ ~-.              \  |\___/|  /              .-~
+     ~-.           \ / o o \ /           .-~
+        >           \\  W  //           <
+       /             /~---~\             \
+      /_            |       |            _\
+         ~-.        |       |        .-~
+            ;        \     /        i
+           /___      /\   /\      ___\
+                ~-. /  \_/  \ .-~
+                   V         V
+
+```
