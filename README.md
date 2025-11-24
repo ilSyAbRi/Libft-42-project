@@ -30,18 +30,17 @@ _________________               _________________
 
 ---
 
-### Compilation & Usage
+#### Compilation & Usage
 
 ```c
-// file main.c
+// file >: main.c
 #include "libft.h"
 #include <stdio.h>
 
-int main(void)
+int	main(void)
 {
-    char *s = "Hello, World!";
-    printf("Length: %zu\n", ft_strlen(s));
-    return 0;
+printf("%zu\n", ft_strlen("YO YO WORLD HXH"));
+return (0);
 }
 ```
 
